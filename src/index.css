@@ -1,3 +1,15 @@
+:root {
+  --font-main: "Lato", serif;
+  --font-secondary: "Roboto", serif;
+  --color-primary: #1D3557;
+  --color-secondary: #2A9D8F;
+  --emphasis: #F4A261;
+  --text-dark: #333333;
+  --text-light: #F4F4F9;
+  --background: #fff;
+
+}
+
 *,
 *::before,
 *::after {

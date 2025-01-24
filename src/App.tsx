@@ -1,8 +1,13 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Form from "./pages/FormPage";
+
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/formulario" element={<Form />} />
+      </Routes>
+    </Router>
   )
 }
 
